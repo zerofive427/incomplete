@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+
+.cake {
+  width: 260px;
+  height: 260px;
+  background-color: #d2691e;
+  border-top-left-radius: 45%;
+  border-top-right-radius: 45%;
+  border-bottom-left-radius: 45%;
+  border-bottom-right-radius: 45%;
+}
+
+.cake .bread .choco .topping {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 70px;
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.cake .bread .choco .topping .candy {
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  background-color: #333;
+}
